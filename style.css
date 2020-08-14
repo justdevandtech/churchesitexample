@@ -30,6 +30,7 @@ body{
     font-weight: bolder
 }
 
+
 .mfm h1{
     position: relative;
     animation-name: mfm;
@@ -85,9 +86,8 @@ padding-right: 30px;
 .hd a{
 text-align: center;
 display: flex;
-width: 20%;
+width: 23%;
 justify-content: center;
-padding: 3px;
 border-radius: 5px;
 text-decoration: none;
 background-color: #42f551;
@@ -99,6 +99,7 @@ font-weight: bold;
 cursor: pointer;
 box-shadow: wheat 1px 2px 8px 4px;
 margin-bottom: 5px;
+padding: 3px;
 }
 
 .hd a:hover {
