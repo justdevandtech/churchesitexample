@@ -18,7 +18,19 @@ h1 {
     text-transform: capitalize;
     padding: 5px;
     font-size: 20px;
+    animation-name: mfm;
+    animation-duration: 6s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
 }
+
+@keyframes mfm{
+    10%{color: darkmagenta;}
+    30%{color: teal;}
+}
+
  p {
      text-align: center;
  }
