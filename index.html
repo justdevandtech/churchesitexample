@@ -11,12 +11,27 @@
         <h1>welcome to mountain of fire and miracles ministries</h1>
         <h3>zion:place of covenant assembly</h3>
         <br>
-        <p>Are you a robot? If you are not a robot click on the image below for security check</p>
-        <a href="home.html"><img src="img/mfm-logo.png"></a>
+        <p>Are you a robot? If you are not a robot click on the image below to access our main page</p>
+        <a id="logo" href="home.html"><img src="img/mfm-logo.png"></a>
         <h5>General Overseer <b>Dr. D.K.OLUKOYA</b></h5>
     </div>
     
 
+<script>
+var logo = document.getElementById("logo");
+var userName;
 
+logo.onclick = function (){
+    confirm ("press ok to signify that you're a human");
+  userName = prompt("Sorry what's your name?")
+
+    if (confirm(userName.toUpperCase() + " Welcome but have it in mind that This website is not the real website of the name you're seeing here. This is just an example of how a church website should looks like. press OK to continue Or press CANCEL to go back")) {
+    window.open("https://ophicial-pauloski.github.io/churchesitexample/home.html")
+  } else {
+   window.open("https://ophicial-pauloski.github.io/churchesitexample/")
+  }
+
+ };
+</script>
 </body>
 </html>

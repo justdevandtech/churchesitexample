@@ -11,6 +11,7 @@ const nocon6 = document.getElementById("nocon6");
 
 
 
+
 nocon1.onclick = function (){
     alert("No content...This not a fully functional website! please come back later and check. pauloski loves you")
  };
